@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+ /*Body*/
+body {
+    background-image: url(../IMG/gallery3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f7f0f0;
+}
+
+
+/*Header*/
+
+.tamLogo {
+
+    width: 150px;
+}
+
+header {
+    border-bottom: solid 5px rgba(240, 239, 235, 0.918);
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+
+
+}
+
+
+
+nav ul li {
+    list-style: none; 
+    display: inline-block;
+    margin: 0 10px;
+    color: aliceblue;
+
+}
+
+
+li a {
+    color: #f7f0f0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(245, 244, 241, 0.671);
+}
+
+/* Main */
+
+main {
+    margin: 20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+h1,
+h2
+{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(245, 244, 241, 0.671)
+}
+
+/*nosotros*/
+
+.ContenedorNosotros {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* footer */
+
+footer {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(245, 244, 241, 0.671);
+    padding:  20px;
+    border-top: 1px solid rgb(253, 251, 251);
+    text-align : center;
+    color: rgba(245, 244, 241, 0.671);
+    margin: 20px;
+
+}
+
+/* caffe */
+.NuestroCaffe {
+    margin: 20px;
+    border: 4px solid rgb(252, 247, 247);
+    border-radius: 10px;
+}
+
+.imgCaffe {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+/*nuestrocaffe*/
+.NuestroCaffe p {
+    background-color: rgba(245, 244, 241, 0.671);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* iframe */
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+/* formulario */
+
+form {
+     margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgba(245, 244, 241, 0.671);
+}
+
+input[type="text"],
+ textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid  rgba(255, 253, 253, 0.24);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    background-color:rgb(153, 149, 149);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
