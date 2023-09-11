@@ -18,10 +18,8 @@ body {
 /*Header*/
 
 .tamLogo {
-
     width: 150px;
 }
-
 header {
     border-bottom: 5px rgba(2, 2, 2, 0.918);
     text-align: center;
