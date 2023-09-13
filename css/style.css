@@ -50,7 +50,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: rgba(245, 244, 241, 0.671);
+    color: rgba(245, 244, 241, 0.671)
 }
 
 /* Main */
@@ -165,3 +165,25 @@ input[type="text"],
     cursor: pointer;
     margin-top: 10px;
 }
+.navbar-toggler {
+    background-color:rgb(242, 243, 245);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.navbar-toggler-icon {
+    background-color:rgb(242, 243, 245);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
