@@ -92,26 +92,34 @@ footer {
 
 /* caffe */
 .NuestroCaffe {
-    margin: 20px;
-    border: 4px solid rgb(252, 247, 247);
-    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .imgCaffe {
     display: block;
-    width: 100%;
+    width: 500px;
     height: auto;
 
 }
 /*nuestrocaffe*/
 .NuestroCaffe p {
-    background-color: rgba(245, 244, 241, 0.671);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 10px;
+    
+    color: rgb(175, 175, 175);
+    text-align: auto;
+    padding: 5px;
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+.imgfranquicias{
+    display: block;
+    width: 100%;
+    height: auto;
+
 }
 
 /* iframe */
