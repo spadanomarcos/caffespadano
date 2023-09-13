@@ -124,9 +124,9 @@ footer {
 
 /* iframe */
 
-iframe [type= "mapa"], 
-{
-    display:flex;
+iframe [type= "mapa"],{
+ 
+    display: flex;
     margin: auto;
     width: auto;
 }
