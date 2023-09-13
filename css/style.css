@@ -119,14 +119,16 @@ footer {
     display: block;
     width: 100%;
     height: auto;
-    
+
 }
 
 /* iframe */
 
-iframe {
-    display: block;
+iframe [type= "mapa"], 
+{
+    display:flex;
     margin: auto;
+    width: auto;
 }
 
 /* formulario */
