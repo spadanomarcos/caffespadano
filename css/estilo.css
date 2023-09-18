@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Body*/
+body {
+  background-image: url(../IMG/gallery3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+}
+
+/*Header*/
+.tamLogo {
+  width: 150px;
+}
+
+header {
+  border-bottom: 5px rgba(2, 2, 2, 0.918);
+  text-align: center;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  color: aliceblue;
+}
+
+li a {
+  color: #f7f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(245, 244, 241, 0.671);
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  color: rgba(245, 244, 241, 0.671);
+  padding: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.671);
+  margin: 20px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
