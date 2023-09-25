@@ -23,7 +23,10 @@ nav ul li {
     display: inline-block;
     margin: 0 10px;
     color: aliceblue;
-}
+    display: flex;
+    flex-direction: column;
+  
+  }
 
 li a {
     color: #f7f0f0;
