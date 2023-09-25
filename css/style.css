@@ -1,12 +1,12 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+     padding: 0;
+     box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-/*Body*/
+ /*Body*/
 body {
     background-image: url(../IMG/gallery3.jpg);
     background-repeat: no-repeat;
@@ -20,25 +20,24 @@ body {
 .tamLogo {
     width: 150px;
 }
-
 header {
-    border-bottom: 5px rgba(2, 2, 2, 0.918);
-    text-align: center;
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+  border-bottom: 5px rgba(2, 2, 2, 0.918);
+  text-align: center;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
 
 
 nav ul li {
-    list-style: none;
+    list-style: none; 
     display: inline-block;
     margin: 0 10px;
     color: aliceblue;
     display: flex;
     flex-direction: column;
-
+    
 }
 
 
@@ -61,11 +60,12 @@ main {
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-
+    
 }
 
 h1,
-h2 {
+h2
+{
     text-align: center;
     text-decoration: none;
     color: rgba(245, 244, 241, 0.671)
@@ -74,20 +74,19 @@ h2 {
 /*nosotros*/
 
 .ContenedorNosotros {
-    display: block;
+    display:block;
     width: 100%;
     height: auto;
 }
-
 /* footer */
 
 footer {
     text-align: center;
     text-decoration: none;
     color: rgba(245, 244, 241, 0.671);
-    padding: 20px;
-
-    text-align: center;
+    padding:  20px;
+  
+    text-align : center;
     color: rgba(255, 255, 255, 0.671);
     margin: 20px;
 
@@ -107,10 +106,9 @@ footer {
     height: auto;
 
 }
-
 /*nuestrocaffe*/
 .NuestroCaffe p {
-
+    
     color: rgb(175, 175, 175);
     text-align: auto;
     padding: 5px;
@@ -119,7 +117,7 @@ footer {
     text-transform: uppercase;
 }
 
-.imgfranquicias {
+.imgfranquicias{
     display: block;
     width: 100%;
     height: auto;
@@ -128,8 +126,8 @@ footer {
 
 /* iframe */
 
-iframe [type="mapa"] {
-
+iframe [type="mapa"]{
+ 
     display: flex;
     margin: auto;
     width: auto;
@@ -138,7 +136,7 @@ iframe [type="mapa"] {
 /* formulario */
 
 form {
-    margin-top: 20px;
+     margin-top: 20px;
 }
 
 label {
@@ -149,18 +147,18 @@ label {
 }
 
 input[type="text"],
-textarea {
+ textarea {
     display: block;
     width: 100%;
     padding: 10px;
-    border: 2px solid rgba(255, 253, 253, 0.24);
+    border: 2px solid  rgba(255, 253, 253, 0.24);
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
 .btnFormulario {
-    background-color: rgb(153, 149, 149);
+    background-color:rgb(153, 149, 149);
     color: #000000;
     border: none;
     padding: 10px 20px;
@@ -169,9 +167,8 @@ textarea {
     cursor: pointer;
     margin-top: 10px;
 }
-
 .navbar-toggler {
-    background-color: rgb(242, 243, 245);
+    background-color:rgb(242, 243, 245);
     color: #000000;
     border: none;
     padding: 10px 20px;
@@ -182,7 +179,7 @@ textarea {
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(242, 243, 245);
+    background-color:rgb(242, 243, 245);
     color: #000000;
     border: none;
     padding: 10px 20px;
@@ -191,3 +188,4 @@ textarea {
     cursor: pointer;
     margin-top: 10px;
 }
+

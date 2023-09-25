@@ -6,10 +6,14 @@
   box-sizing: border-box;
 }
 
-/*Body*/
+
 body {
-  background-image: url(../IMG/gallery3.jpg) background-repeat: no-repeat background-size: cover background-color: #000000
+  background-image: url(../IMG/gallery3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
 }
+
 
 .tamLogo {
   width: 150px;
